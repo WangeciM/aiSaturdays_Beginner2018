@@ -7,3 +7,9 @@ while (count < 11):
     count += 1
     
 ourList
+
+#elemets of ourList that are below 5
+
+belowFive = [num for num in ourList if num<5]
+
+print(belowFive)
